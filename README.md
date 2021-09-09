@@ -1,1 +1,0 @@
-https://DenisKhaliullin.github.io/rsschool-cv/cv
