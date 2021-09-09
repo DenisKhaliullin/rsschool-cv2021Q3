@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #FFFDEE;
+    
+}
+
+.container{
+    width: 1024px;
+    min-height: 800px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.header__li {
+    list-style: none;
+}
+.header__ul {
+    text-align: right;
+    margin-left: 300px;
+}
+
+.header__title  {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    
+}
+
+.header__text {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #EFD343;
+}
+
+
+main h2 {
+    color: #D9584F;
+}
+.profile {
+    
+    margin-left: 20px;
+}
+
+.header{
+    
+    background: #325946;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 25px 5px 25px 5px;
+    align-items: center;
+}
+.header__wrapper{
+    display: flex;
+}
+.two-columns__wrapper {
+    display: flex;
+}
+.left-column {
+    width: 40%;
+    margin-left: 10px;
+}
+.right-column {
+    width: 60%;
+}
+
+pre {
+    background-color: #3b3b3b;
+    color: #ffffff;
+    padding: 0 20px;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+.languages__li {
+    list-style: none;
+}
+
+.skills__li {
+    padding-bottom: 2px;
+    line-height: 30px;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    padding: 20px;
+}
+.github-icon {
+    margin-right: 10px;
+}
+.my-github {
+    display: flex;
+    align-items: center;
+}
