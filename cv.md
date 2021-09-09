@@ -47,4 +47,4 @@ I'm studied in Ufa State Petroleum Technological University 2005-2010, drilling 
 ## Languages:
 
 -Russian - basic<br>
--English - level A1.
+-English - level A2.
