@@ -1,4 +1,4 @@
-# __Denis Khaliullin resume__
+# __Denis Khaliullin__
 
 ### Contact information:
 
@@ -14,7 +14,7 @@ My goal is to master the profession of a developer, I compensate my lack of know
 
 ---
 
-### Skills and Proficiency:
+### Skills:
 
 -I study Java at the JavaRush site. Java Syntax. Java Core.<br>
 -Git & GitHub.<br>
@@ -46,5 +46,5 @@ I'm studied in Ufa State Petroleum Technological University 2005-2010, drilling 
 
 ## Languages:
 
--Russian - Basic<br>
--Level of English A1.
+-Russian - basic<br>
+-English - level A1.
