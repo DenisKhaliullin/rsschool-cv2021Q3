@@ -100,8 +100,74 @@ pre {
     align-items: center;
 }
 
-@media (max-width: 1440px){
-    body {
-        
-    }
+@media (max-width: 770px){
+.header__title {
+    font-size: 24px;
 }
+.header__text {
+    font-size: 10px;
+}
+.profile__img {
+    width: 120px;
+    height: 120px;
+}
+main h2 {
+    font-size: 14px;
+}
+.two-columns__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-basis: content;
+    padding-left: 10px;
+}
+}
+@media (max-width: 575px){
+    .header__title {
+        font-size: 24px;
+    }
+    .header__text {
+        font-size: 10px;
+    }
+    .profile__img {
+        width: 120px;
+        height: 120px;
+    }
+    main h2 {
+        font-size: 14px;
+    }
+    .contacts__li {
+        font-size: 10px;
+    }
+    .contacts__img {
+        width: 15px;
+        height: 15px;
+    }
+    .contacts__info{
+        padding: 0;
+    }
+    .skills__li {
+        font-size: 10px;
+        line-height: normal;
+    }
+    .skills__info {
+        padding: 0;
+    }
+    .about-myself__description {
+        font-size: 10px;
+    }
+    .education__description {
+        font-size: 10px;
+    }
+    pre {
+        font-size: 8px;
+        padding: 0;
+        margin: 0;
+        width: max-content;
+    }
+    .languages__li {
+        font-size: 10px;
+    }
+    .footer__text{
+        display: none;
+    }
+    }

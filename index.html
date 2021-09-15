@@ -34,19 +34,19 @@
                                 <ul class= "contacts__info">
                                     <li class="contacts__li">
                                         <p class="contact__link">
-                                            <img src="assets/images/ico/telephone.png" alt="phone-ico" width="30" height="30">
+                                            <img class="contacts__img" src="assets/images/ico/telephone.png" alt="phone-ico" width="30" height="30">
                                             <a href="tel:+7(937)-487-33-93">+7(937)-487-33-93</a>
                                         </p>
                                     </li>
                                     <li class="contacts__li">
                                         <p class="contact__link">
-                                            <img src="assets/images/ico/gmail.png" alt="mail-icon" width="30" height="30">
+                                            <img class="contacts__img" src="assets/images/ico/gmail.png" alt="mail-icon" width="30" height="30">
                                             <a href="mailto:deniskhaliullin@gmail.com">deniskhaliullin@gmail.com</a>
                                         </p>
                                     </li>
                                     <li class="contacts__li">
                                         <p class="contact__link">
-                                            <img src="assets/images/ico/telegram-app.png" alt="telegram-icon" width="30" height="30">
+                                            <img class="contacts__img" src="assets/images/ico/telegram-app.png" alt="telegram-icon" width="30" height="30">
                                             <a href="https://t.me/Denis_Khaliullin">@Denis_Khaliullin</a>
                                         </p>
                                     </li>
@@ -84,7 +84,7 @@
 for (int i = 0; i &lt; array.length; i++){
  for (int j = i + 1; j &lt; array.length; j++){
   if(isNumber(array[i]) && isNumber(array[j])){
-   if(Integer.parseInt(array[i]) &lt; Integer.parseInt(array[j])) {
+   if(Integer.parseInt(array[i]) &lt; Integer.parseInt(array[j])){
     String temp = array[i];
      array[i] = array[j];
       array[j] = temp;
@@ -114,15 +114,14 @@ for (int i = 0; i &lt; array.length; i++){
             <div class="wrapper footer__wrapper">
                 <a class="my-github" href="https://github.com/DenisKhaliullin">
              <img class="github-icon" src="assets/images/ico/github.png" alt="Github-icon" width="30" height="30">
-             <p>DenisKhaliullin</p>
+            <span class="footer__text">DenisKhaliullin</span> 
          </a>
          <p>© 2021</p>
          <a href="https://rs.school/js/">
-             <img src="assets/images/ico/rs_school_js.svg" alt="RSschool-icon" width="90" height="90">
+             <img class="rs-school__ico" src="assets/images/ico/rs_school_js.svg" alt="RSschool-icon" width="90" height="90">
          </a>
             </div>
         </footer> 
     </div>
-   
 </body>
 </html>
