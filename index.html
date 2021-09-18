@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Rschool-cv-html</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
                             <h3 class="header__text">Junior Front-End Developer</h3>  
                         </li>
                     </ul>
-                    <nav class="nav">
+                    <nav class="nav" id="myNav">
                         <a class="nav__link" href="#contact" >Contact</a>
                         <a class="nav__link" href="#skills" >Skills</a>
                         <a class="nav__link" href="#about" >About Myself</a>
@@ -33,12 +34,10 @@
                         <a class="nav__link" href="#project" >Project</a>
                         <a class="nav__link" href="#video">Video</a>
                         <a class="nav__link" href="#languages" >Languages</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
                     </nav>
-                    <button class="nav-toogle active" id="nav_toogle" type="button">
-                        <span class="nav-toogle__item">
-
-                        </span>
-                    </button>
                 </div>
             </div>
         </header>
@@ -153,6 +152,15 @@ for (int i = 0; i &lt; array.length; i++){
         </footer> 
     </div>
 
-
+<script>
+    function myFunction() {
+    var x = document.getElementById("myNav");
+    if (x.className === "nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav";
+    }
+}
+</script>
 </body>
 </html>
