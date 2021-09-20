@@ -152,10 +152,8 @@ pre {
 }
 
 .nav__link {
-    display: block;
+    display: none;
 }
-
-
 
 .header__title {
     font-size: 28px;
