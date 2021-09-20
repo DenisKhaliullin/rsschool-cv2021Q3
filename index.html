@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Rschool-cv-html</title>
 </head>
 <body>
@@ -24,21 +25,19 @@
                             <h3 class="header__text">Junior Front-End Developer</h3>  
                         </li>
                     </ul>
-                    <nav class="nav">
-                        <a class="nav__link" href="#" data-scroll="#contact">Contact</a>
-                        <a class="nav__link" href="#" data-scroll="#skills">Skills</a>
-                        <a class="nav__link" href="#" data-scroll="#about">About Myself</a>
-                        <a class="nav__link" href="#" data-scroll="#education">Education</a>
-                        <a class="nav__link" href="#" data-scroll="#code">Code</a>
-                        <a class="nav__link" href="#" data-scroll="#project">Project</a>
-                        <a class="nav__link" href="#" data-scroll="#video">Video</a>
-                        <a class="nav__link" href="#" data-scroll="#languages">Languages</a>
+                    <nav class="nav" id="myNav">
+                        <a class="nav__link" href="#contact" >Contact</a>
+                        <a class="nav__link" href="#skills" >Skills</a>
+                        <a class="nav__link" href="#about" >About Myself</a>
+                        <a class="nav__link" href="#education" >Education</a>
+                        <a class="nav__link" href="#code" >Code</a>
+                        <a class="nav__link" href="#project" >Project</a>
+                        <a class="nav__link" href="#video">Video</a>
+                        <a class="nav__link" href="#languages" >Languages</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
                     </nav>
-                    <button class="nav-toogle active" id="nav_toogle" type="button">
-                        <span class="nav-toogle__item">
-
-                        </span>
-                    </button>
                 </div>
             </div>
         </header>
@@ -48,7 +47,7 @@
                     <section class="left-column">
                         <div class="wrapper left-column__wrapper">
                             <div class="contact" id="contact">
-                                <h2 class="contact__title">Contact information:</h2>
+                                <h2 class="contact__title"><a href="#contact"></a>Contact information:</h2>
                                 <ul class= "contacts__info">
                                     <li class="contacts__li">
                                         <p class="contact__link">
@@ -72,7 +71,7 @@
                             </div>
                             <div class="skills" id="skills">
                                 <div class="wrapper skills_wrapper">
-                                    <h2 class="skills__title">Skills</h2>
+                                    <h2 class="skills__title"><a href="#skills"></a>Skills</h2>
                                     <ul class="skills__info">
                                         <li class="skills__li">I study Java at the JavaRush site. Java Syntax. Java Core.</li>
                                         <li class="skills__li">Git & GitHub.</li>
@@ -86,16 +85,16 @@
                     <section class="right-column">
                         <div class="wrapper right-column__wrapper">
                             <div class="about-myself" id="about">
-                                <h2 class="about-myself__title">About Myself:</h2>
+                                <h2 class="about-myself__title"><a href="#about"></a>About Myself:</h2>
                                 <p class="about-myself__description">My goal is to master the profession of a developer, I compensate my lack of knowledge with hard work. I have an engineering education, 10 years as a petroleum engineer, have experience in large projects of varying complexity, a high level of communication. I am a quick learner, I easily find the information I need.</p>
                             </div>
                             <div class="education" id="education">
-                                <h2 class="education">Education</h2>
+                                <h2 class="education"><a href="#education"></a>Education</h2>
                                 <p class="education__description">Ufa State Petroleum Technological University 2005-2010, drilling of oil and gas wells.</p>
                             </div>
                             <div class="code-example" id="code">
                                 <div class="wrapper code-example__wrapper">
-                                    <h2 class="code-example__title">Code-example</h2>
+                                    <h2 class="code-example__title"><a href="#code"></a>Code-example</h2>
                                     <p>Bubble sort</p>
                                     <pre>
                                         <code>
@@ -113,16 +112,18 @@ for (int i = 0; i &lt; array.length; i++){
                             </div>
                             <div class="project" id="project">
                                 <div class="project__wrapper">
-                                    <h2 class="project__title">Project</h2>
+                                    <h2 class="project__title"><a href="#project"></a>Project</h2>
+                                    
                                 </div>
                             </div>
                             <div class="video" id="video">
                                 <div class="video__wrapper">
-                                    <h2 class="video__title">Video</h2>
+                                    <h2 class="video__title"><a href="#video"></a> Video</h2>
+                                    <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/LNQvZHrjyq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="languages" id="languages">
-                                <h2 class="languages__title">Languages</h2>
+                                <h2 class="languages__title"><a href="#languages"></a>Languages</h2>
                                 <ul class="languages__ul">
                                     <li class="languages__li">
                                         <p>Russian - Basic.</p>
@@ -152,7 +153,15 @@ for (int i = 0; i &lt; array.length; i++){
         </footer> 
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="assets/js/app.js"></script>
+<script>
+    function myFunction() {
+    var x = document.getElementById("myNav");
+    if (x.className === "nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav";
+    }
+}
+</script>
 </body>
 </html>
