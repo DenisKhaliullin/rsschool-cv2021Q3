@@ -143,6 +143,10 @@ pre {
     .container {
         max-width: 1120px;
     }
+    .youtube-video {
+        width: 320px;
+        height: 200px;
+    }
 }
 
 @media (max-width: 770px){
@@ -198,6 +202,10 @@ main h2 {
     float: none;
     display: block;
     text-align: left;
+  }
+  .youtube-video {
+      width: 260px;
+      height: 200px;
   }
 }
 @media (max-width: 575px){
