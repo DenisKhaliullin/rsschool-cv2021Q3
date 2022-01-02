@@ -1,1 +1,1 @@
-https://DenisKhaliullin.github.io/rsschool-cv/
+https://DenisKhaliullin.github.io/rsschool-cv2021Q3/
